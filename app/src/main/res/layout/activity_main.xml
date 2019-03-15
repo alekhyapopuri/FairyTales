@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ft"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you a Fairy Tales lover??..If Yes then you are going to enjoy the App"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#d80ed4"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:hint="Text One"
+        android:background="#10dec9"
+        android:id="@+id/text1"
+        android:onClick="textone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:hint="Text Two"
+        android:background="#54e909"
+        android:id="@+id/text2"
+        android:onClick="texttwo"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Text Three"
+        android:background="#0cd9b0"
+        android:id="@+id/text3"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:onClick="textthree"/>
+
+</LinearLayout>
